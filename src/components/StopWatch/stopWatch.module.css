@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.stopWatch {
+  max-width: 400px;
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: rgb(206, 223, 239);
+  box-shadow: 5px 10px rgb(173, 193, 210);
+  border-radius: 10px;
+}

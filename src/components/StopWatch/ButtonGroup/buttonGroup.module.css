@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  width: 70px;
+  padding: 10px;
+  color: white;
+  font-size: 14px;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: rgb(2, 94, 2);
+  cursor: pointer;
+}
+
+.btnGrp {
+  display: flex;
+  gap: 30px;
+}
+.btnRestart {
+  background-color: red;
+}
+
+.btnRestart:hover {
+  background-color: brown;
+  cursor: pointer;
+}
